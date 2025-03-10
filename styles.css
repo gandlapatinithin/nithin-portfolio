@@ -1,0 +1,166 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: #fff;
+}
+
+.header-container {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Sticky Navigation */
+.sticky-nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sticky-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.sticky-nav ul li {
+  margin: 0 20px;
+}
+
+.sticky-nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.sticky-nav ul li a:hover,
+.sticky-nav ul li a.active {
+  color: #1976d2;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Section Titles */
+h2 {
+  margin-top: 0;
+  color: #0d47a1;
+  border-bottom: 2px solid #1976d2;
+  padding-bottom: 8px;
+}
+
+/* Skills and Certifications Lists */
+.skills-list, .certifications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li, .certifications-list li {
+  margin: 10px 0;
+}
+
+/* Projects Page */
+.project-item {
+  margin-bottom: 40px;
+}
+
+.project-item h3 {
+  color: #0d47a1;
+}
+
+.project-item a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+.project-arch {
+  margin-top: 15px;
+}
+
+.project-arch img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Experience Items */
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.experience-item .role {
+  font-style: italic;
+  color: #555;
+}
+
+.experience-item .date {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
